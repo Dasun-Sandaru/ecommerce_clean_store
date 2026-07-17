@@ -5,7 +5,6 @@ import '../domain/usecases/admin/cancel_order_usecase.dart';
 import '../domain/usecases/admin/track_order_usecase.dart';
 import '../domain/usecases/customer/place_order_usecase.dart';
 
-
 class App {
   final PlaceOrderUseCase _placeOrderUseCase;
   final TrackOrderUseCase _trackOrderUseCase;
