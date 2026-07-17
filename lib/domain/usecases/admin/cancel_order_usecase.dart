@@ -1,9 +1,9 @@
 import '../../repositories/order_repository.dart';
 
-class CancelOrder {
+class CancelOrderUseCase {
   final OrderRepository _orderRepository;
 
-  CancelOrder(this._orderRepository);
+  CancelOrderUseCase(this._orderRepository);
 
   Future<void> execute(String orderId) async {
     if (orderId.trim().isEmpty) {

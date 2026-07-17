@@ -4,13 +4,13 @@ import '../../repositories/order_repository.dart';
 import '../../repositories/payment_gateway.dart';
 import '../../repositories/product_repository.dart';
 
-class PlaceOrderUsecase {
+class PlaceOrderUseCase {
   final ProductRepository _productRepository;
   final OrderRepository _orderRepository;
   final PaymentGateway _paymentGateway;
   final EmailService _emailService;
 
-  PlaceOrderUsecase({
+  PlaceOrderUseCase({
     required ProductRepository productRepository,
     required OrderRepository orderRepository,
     required PaymentGateway paymentGateway,
